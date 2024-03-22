@@ -1,0 +1,36 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "build": "npm i"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.1.1",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "md5": "^2.3.0",
+    "mongoose": "^6.6.2",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "popups": "^1.1.3",
+    "request": "^2.88.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": "medEasy  is web application intended to connect medicine donors to ngo or individual who  need medicine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReetiAgarwal/medeasyy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ReetiAgarwal/medeasyy/issues"
+  },
+  "homepage": "https://github.com/ReetiAgarwal/medeasyy#readme"
+}

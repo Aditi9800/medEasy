@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/formcss/style.css">
+  <link rel="icon" href="/images/logo1.png">
+  <title>donation</title>
+</head>
+
+<body>
+  <div class="iconn">
+    <table class="iconn"style="width:100%">
+      <tr>
+        <td><span class="logo-image">
+          <a href"/"><img src="/images/logo1.png" class="img-fluid"></a>
+      </span></td>
+        <td><b>medEasy</td>
+      </tr>
+    </table>
+  </div>
+
+
+  <div class="container">
+    <div class="title">Medicine Details</div>
+    <div class="content">
+      <form method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Medicine Name</span>
+            <input type="text"  name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Manufacturing Date</span>
+            <input type="date" name="manufacturingdate" placeholder="Date of Manufacture" required>
+          </div>
+          
+          
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" name="address" placeholder="Enter your Address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Expiry Date</span>
+            <input type="date" name="expirydate" placeholder="Date of Expiry" required>
+          </div>
+          <div class="input-box">
+            <span class="details">City</span>
+            <input type="text" name="city" placeholder="Enter your City" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Symptoms</span>
+            <input type="text" name="foodType" placeholder="To be used for?" required>
+          </div>
+          <div class="input-box">
+            
+            <span class="details">Phone Number</span>
+            <input type="phonenumber" name="phoneNo" placeholder="Enter your number"  pattern="[0-9]{10}"required>
+          </div>
+<!--           <div class="input-box">
+            <span class="details">Pickup-Time</span>
+            <input type="time" name="pickupTime" placeholder="Available at" required>
+          </div> -->
+          
+          <div class="input-box">
+            <span class="details">Number of Tablets</span>
+            <input type="number" name="NumberOfPlates" placeholder="Enter number of tablets" required>
+          </div>
+
+        </div>
+
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

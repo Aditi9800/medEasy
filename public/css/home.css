@@ -1,0 +1,538 @@
+.logo-image img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.gap li {
+    margin-right: 30px;
+}
+
+.header {
+    background: black;
+    font-weight: 20px;
+    opacity: 0.9;
+}
+
+.n {
+    text-decoration: none;
+    color: rgb(224, 222, 222);
+    margin-left: 20px;
+}
+
+.n:hover {
+    color: aliceblue;
+}
+
+.active a {
+    color: orange;
+}
+
+.top {
+/*     background: url('/images/background-3.jpg') no-repeat center center; */
+    height: 600px;
+    background-size: cover;
+    z-index: 1;
+    opacity:0.98;
+}
+
+.m4 {
+    color:  rgb(255, 244, 240);
+    margin-bottom: 1.5rem !important;
+    width:90%;
+    position:absolute;
+    left:50px;
+    top:130px;
+    font-weight:bold;
+}
+
+.m5 {
+    color: aliceblue;
+}
+
+m5 span {
+    font-weight: bold;
+}
+
+
+
+.mid{
+    margin-top:10px;
+    aling-item:center;
+}
+
+.row {
+    display: inline-block;
+}
+
+.col{
+    padding:0 !important;
+    box-shadow:0 0 50px -28px;
+    margin-right:2.5%;
+    margin-left:2.5%;
+    margin-bottom:5%;
+}
+.review {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 66px -24px rgba(0, 0, 0, 20%);
+    margin: 20px 40px !important;
+    padding-bottom: 20px;
+}
+
+.ftco-footer {
+    font-size: 16px;
+    padding: 7em 0;
+    background: #252525;
+}
+
+.ftco-footer .ftco-footer-logo {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ftco-footer .ftco-footer-widget h2:after {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    content: '';
+    width: 70px;
+    height: 1px;
+    background: #fff;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+    color: #fff;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary {
+    background: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary:hover {
+    background: #fff;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer a {
+    color: rgba(242, 134, 39, 0.966);
+}
+
+.ftco-footer a:hover {
+    color: #fff;
+}
+
+.ftco-footer .ftco-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ftco-footer .block-21 .text .heading {
+    font-size: 18px;
+}
+
+.ftco-footer .block-21 .text .heading a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ftco-footer .block-21 .text .heading a:hover,
+.ftco-footer .block-21 .text .heading a:active,
+.ftco-footer .block-21 .text .heading a:focus {
+    color: #f86f2d;
+}
+
+.ftco-footer .block-21 .text .meta>div {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.ftco-footer .block-21 .text .meta>div a {
+    color: gray;
+}
+
+.info a {
+    color: orange;
+}
+
+.list-unstyled {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+}
+
+.block-23 ul {
+    padding: 0;
+}
+
+.block-23 ul li,
+.block-23 ul li>a {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.block-23 ul li .icon,
+.block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.block-23 ul li .icon {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+    flex-direction: column;
+}
+.xyz{
+    display:flex;
+    flex-direction:column;
+}
+.xyz a{
+    text-decoration:none;
+}
+.xyz .text{
+    color:rgb(222, 219, 219);
+}
+
+.top1 
+{   
+    display:flex;
+    flex-direction: row; 
+    margin-top:30px;    
+    max-height: max-content;
+}
+.top1 img{
+    position: relative;
+    top:40px;
+    height: 455px;  /*35vw*/
+    padding-left:100px; /*10vw*/
+    border-radius:50%;
+    width:90vw;
+}
+
+.top2
+{   
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+    margin-left:50px;
+    padding-top:100px; /*7vw  or  80px*/
+    font-size: 50px; /*4vw*/
+}
+
+.top2 .head{
+  font-weight:650;
+}
+
+.profile{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    margin-right:8px;
+    margin-top:5px;
+}
+
+.date{
+    font-size:12px;
+    font-weight:500;
+}
+
+.button{
+    font-size:25px;  /*2vw*/
+    display:flex;
+    flex-direction:row;
+    margin-bottom:50px; 
+}
+
+.donate{
+    background-color:#ff9705;
+    color:white;
+    padding:5px 20px;
+    border-radius:2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border:none;
+    margin-right:5vw;  /*50px*/
+    margin-top:4vw;  /*50px*/
+}
+
+.donate:hover{
+    background-color:#ffa21f;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.re2
+{
+  font-size:40px;
+  margin-bottom:20px;
+  margin-left:auto;
+  font-weight:500;
+  margin-top:80px;
+}
+/* for counting numbers */
+/* .wrapper{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  font-size: 20px;
+  border:6px solid #39c3c6;
+  border-radius:2px;
+}
+.wrapper .container div{
+  color:white;
+}
+.wrapper .container span{
+  color:white;
+  font-weight:500;
+}
+.wrapper .container{
+  background-color:#39c3c6;
+  padding:2px 20px;
+}
+
+.vl {
+  border-left: 1px solid #fbfaf9;
+  text-align:center;
+}  */
+
+
+.wrapper{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  font-size: 20px;
+  padding:5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.wrapper .container div{
+  color:grey;
+}
+.wrapper .container span{
+  color:#ff9705;
+  font-weight:500;
+}
+
+.vl {
+  border-left: 1px solid #ffbb5c;
+  height: 90px;
+}
+/* END */
+
+
+
+
+@media screen and (max-width:600px){
+    .top1
+    {
+      display:block;
+      padding-top:40px;
+    }
+    .top1 img
+    {
+      padding-left:20px;
+      height:60vw;
+      border-radius:0;
+    }
+    .top2
+    {
+      font-size:10vw;
+      margin-left:20px;
+      padding-top:7vw;
+    }
+    .donate
+    {
+      padding:10px 20px;
+    }
+    .button
+    {
+      font-size:18px;
+    }
+    .rev
+    {
+      max-width:330px !important;
+    }
+    .top2 .wrapper
+    {
+      display:none;
+    }
+    .button
+    {
+      margin-bottom:0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* orange box  */
+
+/* 
+.block-18 .icon>span {
+    font-size: 40px;
+}
+
+.ftco-intro {
+    margin-top: -90px;
+}
+
+.ftco-intro.ftco-intro-2 {
+    margin-top: 0 !important;
+}
+
+.ftco-intro .block-18 {
+    display: block;
+    width: 100%;
+    padding: 30px;
+}
+
+.containercount{
+  background-image: linear-gradient(125deg,#f86f2d,#fa8f3d )!important;
+  padding:20px 10px;
+  margin:30px 10px;
+}
+.ftco-intro .block-18.color-1 {
+    background: #f86f2d;
+}
+
+.ftco-intro .block-18.color-2 {
+    background: #fa8f3d;
+}
+
+.ftco-intro .block-18.color-3 {
+    background: #faaa3a;
+}
+
+.ftco-intro .block-18 .text strong {
+    font-size: 60px;
+    color: #000;
+    font-weight: 300;
+}
+
+.ftco-intro .block-18 .text span {
+    display: block;
+    color: #000;
+    font-size: 24px;
+}
+
+.col-md {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    z-index: 2;
+} */
+
+/* .d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+} */
+
+/* .justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.align-items-stretch {
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+}
+
+.donor {
+    background-color: rgba(0, 0, 0, alpha);
+    border: none;
+    border-radius: 2px;
+    padding: 20px;
+    box-shadow: 0 5px 20px -5px rgb(0 0 0 / 50%);
+    transition: all 0.2s ease-in-out;
+}
+
+.donor:hover {
+    background-color: black;
+    color: white;
+}
+
+.Volunteer {
+    background-color: rgba(0, 0, 0, alpha);
+    border: none;
+    border-radius: 2px;
+    padding: 20px;
+    box-shadow: 0 5px 20px -5px rgb(0 0 0 / 50%);
+    transition: all 0.2s ease-in-out;
+}
+
+.Volunteer:hover {
+    background-color: black;
+    color: white;
+} 
+*/
+
+/* .ftco-section {
+    margin: 50px 0 0;
+} */
+
+
+
+
+
+/* gallery */
+
+/* 
+.media img {
+    width: 100px;
+    height: 250px;
+    
+    
+}
+
+.gallery img {
+    height:100%;
+    width: 100%;
+    border-radius:5px;
+    transition:transform 2s ease in out;
+}
+
+.gallery img:hover {
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 20%);
+    cursor:pointer;
+    transform:translate(0,-9px);
+    opacity:0.9;
+}
+*/
